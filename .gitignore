@@ -1,3 +1,8 @@
+#Own ignores
+bg-pictures-removed/
+boardgame-pictures-too-many-bad-images/
+boardgame-pictures/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
