@@ -2,6 +2,8 @@
 bg-pictures-removed/
 boardgame-pictures-too-many-bad-images/
 boardgame-pictures/
+selenium-data/
+CM.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
