@@ -84,16 +84,18 @@ gns[37]='2864172'
 gns[37]='2864172'
 gns[41]='250656'
 gns[42]='4322118'
+gns[43]='5896904' #has only 88 images
 gns[44]='2903568'
+gns[47]='3451529' #has only 129 images
 gns[49]='4979708'
 tester=LinkCollecter()
 tester.setup_method(None)
-#tester.collect_links(2437871,150,'game_links_selenium.csv')
+tester.collect_links(3451529,128)
 
 
 #game_names=['Gloomhaven','Brass Birmingham','Pandemic Legacy Season 1','Ark Nova','Terraforming Mars','Gloomhaven Jaws of the Lion','Twilight Imperium Fourth Edition','Star Wars Rebellion','Gaia Project','War of the Ring Second Edition','Spirit Island','Through the Ages A New Story of Civilization','Great Western Trail','Twilight Struggle','Dune Imperium','Scythe','The Castles of Burgundy','Nemesis','7 Wonders Duel','Brass Lancashire','Concordia','A Feast for Odin','Terra Mystica','Wingspan','Arkham Horror The Card Game','Clank Legacy Acquisitions Incorporated','Eclipse Second Dawn for the Galaxy','Root','Everdell','Viticulture Essential Edition','Orleans','Lost Ruins of Arnak','Mage Knight Board Game','Food Chain Magnate','Barrage','Marvel Champions The Card Game','Puerto Rico','Too Many Bones','Caverna The Cave Farmers','Blood Rage','Pax Pamir Second Edition','Agricola','Underwater Cities','The Crew Mission Deep Sea','Anachrony','Maracaibo','Mansions of Madness Second Edition','Pandemic Legacy Season 2','The Crew The Quest for Planet Nine','On Mars','Tzolkin The Mayan Calendar','Power Grid','Clans of Caledonia','Crokinole','Le Havre','Star Wars Imperial Assault','Cascadia','Kingdom Death Monster','Pandemic Legacy Season 0','Mechs vs Minions','Lisboa','The Quacks of Quedlinburg','The Gallerist','Paladins of the West Kingdom','Azul','Android Netrunner','Eclipse','Aeons End','The 7th Continent','Through the Ages A Story of Civilization','Race for the Galaxy','Clank A DeckBuilding Adventure','Five Tribes','Fields of Arle','Teotihuacan City of Gods','Grand Austria Hotel','Agricola Revised Edition','Robinson Crusoe Adventures on the Cursed Island','Kanban EV','The Voyages of Marco Polo','7 Wonders','Lords of Waterdeep','Dominant Species','Sleeping Gods','Great Western Trail Second Edition','Tainted Grail The Fall of Avalon','Architects of the West Kingdom','El Grande','Keyflower','Caylus','Battlestar Galactica The Board Game','Beyond the Sun','Mombasa','Dominion Intrigue','Troyes','Raiders of the North Sea','The Lord of the Rings Journeys in MiddleEarth','Twilight Imperium Third Edition','Eldritch Horror','Lorenzo il Magnifico']
 #first_images=[]
 #games=zip(game_names, first_images)
 
-for gn in gns[30:50] :
+for gn in gns[48:50] :
     tester.collect_links(gn,150)
